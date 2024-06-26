@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-file_path = "driver1_IMA0_1_原始数据.csv"
+file_path = "driver1_IMA0_1_raw.csv"
 df = pd.read_csv(file_path)
 
 df['TDM (s)'] = ''
